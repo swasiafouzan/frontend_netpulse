@@ -244,7 +244,7 @@
 
         async function downloadTest() {
             const start = performance.now();
-            const res = await fetch(`${SERVER_URL}/download/10?c=${Math.random()}`);
+            const res = await fetch(`${SERVER_URL}/download}`);
             const reader = res.body.getReader();
             let received = 0;
 
