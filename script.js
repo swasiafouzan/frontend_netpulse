@@ -1,4 +1,4 @@
-const SERVER_URL = "http://localhost:5000/api";
+const SERVER_URL = "https://backend-netpulse.onrender.com/api";
 
 async function pingTest() {
     const start = performance.now();
