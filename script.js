@@ -8,7 +8,7 @@ async function pingTest() {
 
 async function downloadTest() {
     const start = performance.now();
-    const res = await fetch(`${SERVER_URL}/download/10?cache=${Math.random()}`);
+    const res = await fetch(`${SERVER_URL}/download}`);
     const blob = await res.blob();
     const end = performance.now();
 
